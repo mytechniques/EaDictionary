@@ -5,7 +5,7 @@ using System;
 using System.Linq;
 namespace Ea{
 [Serializable]
-	public class EaDictionary <TKey,TValue> :  EaSerializable{
+	public class EaDictionary <TKey,TValue> {
 	#region VARIABLE
 	[SerializeField]List<TKey> Keys;
 	[SerializeField]List<TValue> Values;
